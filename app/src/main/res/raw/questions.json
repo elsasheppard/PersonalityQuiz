@@ -1,0 +1,152 @@
+[
+  {
+    "question" : "How would you describe your intelligence level?",
+    "answers" :
+      [
+        { "Genius" : 1},
+        { "Very smart" : 2},
+        { "Average" : 3},
+        { "Little bit of a dummy" : 4}
+      ]
+  },
+  {
+    "question" : "Which snack would you choose?",
+    "answers" :
+    [
+      { "Cake" : 1},
+      { "Chips" : 2},
+      { "Apples" : 3},
+      { "Coffee" : 4}
+    ]
+  },
+  {
+    "question" : "Do you agree with Kira's ideology?",
+    "answers" :
+    [
+      { "No, but I can understand him" : 1},
+      { "Yes, completely" : 2},
+      { "Yes, I would support him" : 3},
+      { "No, but he hasn't been all that bad" : 4}
+    ]
+  },
+  {
+    "question" : "How do you act on a date?",
+    "answers" :
+    [
+      { "I've never been on a date" : 1},
+      { "Courteously, but only if they would benefit me" : 2},
+      { "Probably weird, I wouldn't know how to act" : 3},
+      { "Nice, but in a simp kind of way" : 4}
+    ]
+  },
+  {
+    "question" : "If you found the Death Note, would you use it?",
+    "answers" :
+    [
+      { "Yes, but only to see if it actually worked" : 1},
+      { "Yes, to fulfil my own desires" : 2},
+      { "Yes, but only if I really had to" : 3},
+      { "No, never" : 4}
+    ]
+  },
+  {
+    "question" : "What is your favorite school subject?",
+    "answers" :
+    [
+      { "Math" : 1},
+      { "Nothing in particular" : 2},
+      { "Home Ec" : 3},
+      { "Language" : 4}
+    ]
+  },
+  {
+    "question" : "How do you usually sit in chairs?",
+    "answers" :
+    [
+      { "Strangely" : 1},
+      { "Normally" : 2},
+      { "I can't sit still for very long" : 3},
+      { "Nervously straightened" : 4}
+    ]
+  },
+  {
+    "question" : "Which could you be obsessed with?",
+    "answers" :
+    [
+      { "Solving mysteries" : 1},
+      { "Justice" : 2},
+      { "Entertainment" : 3},
+      { "Following my idols" : 4}
+    ]
+  },
+  {
+    "question" : "Which word would people describe you as most?",
+    "answers" :
+    [
+      { "Weird" : 1},
+      { "Popular" : 2},
+      { "Scary" : 3},
+      { "Normal" : 4}
+    ]
+  },
+  {
+    "question" : "Where do you feel most comfortable?",
+    "answers" :
+    [
+      { "Where my workplace is" : 1},
+      { "At home, with the door locked" : 2},
+      { "Outside in the open air" : 3},
+      { "Most anywhere, really" : 4}
+    ]
+  },
+  {
+    "question" : "Which is your favorite of these colors?",
+    "answers" :
+    [
+      { "Blue" : 1},
+      { "Red" : 2},
+      { "Black" : 3},
+      { "Brown" : 4}
+    ]
+  },
+  {
+    "question" : "How would you get an answer out of someone?",
+    "answers" :
+    [
+      { "Any means necessary" : 1},
+      { "Manipulate them into giving me the answer" : 2},
+      { "Scare them" : 3},
+      { "Pester them" : 4}
+    ]
+  },
+  {
+    "question" : "How level-headed are you?",
+    "answers" :
+    [
+      { "Relatively, but some things do scare me" : 1},
+      { "Extremely, at least on the outside" : 2},
+      { "Normal amount I guess" : 3},
+      { "Not at all" : 4}
+    ]
+  },
+  {
+    "question" : "if you saw your favorite celebrity on the street, what would you do?",
+    "answers" :
+    [
+      { "Try and touch them...and play it off if it went badly" : 1},
+      { "Nothing, I wouldn't want to bother them" : 2},
+      { "Follow them at a distance" : 3},
+      { "Get super excited!" : 4}
+    ]
+  },
+  {
+    "question" : "How would you react if you saw a Shinigami?",
+    "answers" :
+    [
+      { "Frightened at first, then very curious" : 1},
+      { "Unfazed, but interested" : 2},
+      { "Excited" : 3},
+      { "Scared speechless" : 4}
+    ]
+  }
+]
