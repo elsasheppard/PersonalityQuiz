@@ -1,0 +1,152 @@
+[
+  {
+    "question" : "Wie würden Sie Ihr Intelligenzniveau beschreiben?",
+    "answers" :
+    [
+      { "Genius" : 1},
+      { "Sehr schlau" : 2},
+      { "Durchschnittlich" : 3},
+      { "Ein bisschen dumm" : 4}
+    ]
+  },
+  {
+    "question" : "Welches Essen würdest du wählen?",
+    "answers" :
+    [
+      { "Kuchen" : 1},
+      { "Chips" : 2},
+      { "Äpfel" : 3},
+      { "Kaffee" : 4}
+    ]
+  },
+  {
+    "question" : "Stimmen Sie Kiras Ideologie zu?",
+    "answers" :
+    [
+      { "Nein, aber ich kann ihn verstehen\n" : 1},
+      { "Ja, ganz" : 2},
+      { "Ja, ich würde ihn unterstützen" : 3},
+      { "Nein, aber er war gar nicht so schlecht" : 4}
+    ]
+  },
+  {
+    "question" : "Wie verhältst du dich bei einem die Verabredung?",
+    "answers" :
+    [
+      { "Ich war noch nie auf einem die Verabredung" : 1},
+      { "Höflich, aber nur, wenn sie mir zugute kommen würden" : 2},
+      { "Wahrscheinlich komisch, ich würde nicht wissen, wie ich mich verhalten soll" : 3},
+      { "Schön, aber auf seltsame Weise" : 4}
+    ]
+  },
+  {
+    "question" : "Wenn Sie die Todesnotiz gefunden hätten, würden Sie sie verwenden?",
+    "answers" :
+    [
+      { "Ja, aber nur um zu sehen, ob es tatsächlich funktioniert hat" : 1},
+      { "Ja, um meine eigenen Wünsche zu erfüllen" : 2},
+      { "Ja, aber nur wenn ich wirklich musste" : 3},
+      { "Nein niemals" : 4}
+    ]
+  },
+  {
+    "question" : "\nWas ist dein Lieblingsfach in der Schule?",
+    "answers" :
+    [
+      { "Mathematik" : 1},
+      { "Nichts Bestimmtes" : 2},
+      { "Kochen" : 3},
+      { "Sprache" : 4}
+    ]
+  },
+  {
+    "question" : "Wie sitzt du normalerweise auf Stühlen?",
+    "answers" :
+    [
+      { "Seltsam" : 1},
+      { "Normalerweise" : 2},
+      { "Ich kann nicht lange still sitzen" : 3},
+      { "Nervös aufgerichtet" : 4}
+    ]
+  },
+  {
+    "question" : "Wovon könntest du besessen sein?",
+    "answers" :
+    [
+      { "Rätsel lösen" : 1},
+      { "Gerechtigkeit" : 2},
+      { "Unterhaltung" : 3},
+      { "Ich folge meinen Idolen" : 4}
+    ]
+  },
+  {
+    "question" : "Welches Wort würden dich die Leute am meisten beschreiben?",
+    "answers" :
+    [
+      { "Seltsam" : 1},
+      { "Beliebt" : 2},
+      { "Unheimlich" : 3},
+      { "Normal" : 4}
+    ]
+  },
+  {
+    "question" : "Wo fühlst du dich am wohlsten?",
+    "answers" :
+    [
+      { "Wo mein Arbeitsplatz ist" : 1},
+      { "Zu Hause mit verschlossener Tür" : 2},
+      { "Draußen im Freien" : 3},
+      { "Eigentlich fast überall" : 4}
+    ]
+  },
+  {
+    "question" : "Welches ist dein Favorit unter diesen Farben?",
+    "answers" :
+    [
+      { "Blau" : 1},
+      { "Rot" : 2},
+      { "Schwarz" : 3},
+      { "Braun" : 4}
+    ]
+  },
+  {
+    "question" : "Wie würden Sie eine Antwort von jemandem bekommen?",
+    "answers" :
+    [
+      { "Alle notwendigen Mittel" : 1},
+      { "Manipuliere sie, um mir die Antwort zu geben" : 2},
+      { "Erschrecken Sie sie" : 3},
+      { "Belästige sie" : 4}
+    ]
+  },
+  {
+    "question" : "Wie besonnen bist du?",
+    "answers" :
+    [
+      { "Relativ, aber manche Dinge machen mir Angst" : 1},
+      { "Extrem, zumindest äußerlich" : 2},
+      { "Normale Menge, denke ich" : 3},
+      { "\nGanz und gar nicht" : 4}
+    ]
+  },
+  {
+    "question" : "Was würden Sie tun, wenn Sie Ihren Lieblingsstar auf der Straße sehen würden?",
+    "answers" :
+    [
+      { "Versuchen Sie, sie zu berühren ... und spielen Sie es aus, wenn die Dinge schlecht liefen" : 1},
+      { "Nichts, ich würde sie nicht stören wollen" : 2},
+      { "Folgen Sie ihnen in einiger Entfernung" : 3},
+      { "Sei super aufgeregt!" : 4}
+    ]
+  },
+  {
+    "question" : "Wie würden Sie reagieren, wenn Sie einen Shinigami sehen würden?",
+    "answers" :
+    [
+      { "Zuerst erschrocken, dann sehr neugierig" : 1},
+      { "Unbeeindruckt, aber interessiert" : 2},
+      { "Aufgeregt" : 3},
+      { "Sprachlos erschrocken" : 4}
+    ]
+  }
+]

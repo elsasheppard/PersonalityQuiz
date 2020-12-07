@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrueFalse</string>
+    <string name="true_button">Wahr</string>
+    <string name="false_button">Falsch</string>
+</resources>

@@ -130,7 +130,7 @@
     ]
   },
   {
-    "question" : "if you saw your favorite celebrity on the street, what would you do?",
+    "question" : "If you saw your favorite celebrity on the street, what would you do?",
     "answers" :
     [
       { "Try and touch them...and play it off if it went badly" : 1},

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,5 +25,11 @@ class MainActivity : AppCompatActivity() {
         val gson = Gson()
         // use the parsing between the collection, list, or array section of:
         // https://medium.com/@hissain.khan/parsing-with-google-gson-library-in-android-kotlin-7920e26f5520
+        //question = Gson().fromJson(inputString, Question::class.java)
+        val sType  = object : TypeToken<List<Question>>() {}.type
+        val question = gson.fromJson<List<Question>>(inputString, sType)
+
+        Log.d(TAG, "AFTER: " + questions.toString())
+
     }
 }
