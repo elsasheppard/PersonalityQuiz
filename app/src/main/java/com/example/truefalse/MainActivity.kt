@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         // https://medium.com/@hissain.khan/parsing-with-google-gson-library-in-android-kotlin-7920e26f5520
         //question = Gson().fromJson(inputString, Question::class.java)
         val sType  = object : TypeToken<List<Question>>() {}.type
-        val question = gson.fromJson<List<Question>>(inputString, sType)
+        val questions = gson.fromJson<List<Question>>(inputString, sType)
 
         Log.d(TAG, "AFTER: " + questions.toString())
 
