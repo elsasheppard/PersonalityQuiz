@@ -31,5 +31,14 @@ class MainActivity : AppCompatActivity() {
 
         Log.d(TAG, "AFTER: " + questions.toString())
 
+        // construct a quiz object
+        // get the first question and set the text fields & buttons to match
+        // to test, call a few of the functions in the Quiz class and see if they do what you expect them to do.
+
+        // in the button listeners, when the user clicks on something,
+        // it passes the info on to the Quiz class. The Quiz class decides if
+        // it's right or wrong and updates its score.
+        // We check if there are more questions
+
     }
 }
