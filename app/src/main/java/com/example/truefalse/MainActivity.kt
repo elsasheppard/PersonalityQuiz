@@ -25,13 +25,28 @@ class MainActivity : AppCompatActivity() {
         val gson = Gson()
         // use the parsing between the collection, list, or array section of:
         // https://medium.com/@hissain.khan/parsing-with-google-gson-library-in-android-kotlin-7920e26f5520
-        //question = Gson().fromJson(inputString, Question::class.java)
+        // question = Gson().fromJson(inputString, Question::class.java)
         val sType  = object : TypeToken<List<Question>>() {}.type
         val questions = gson.fromJson<List<Question>>(inputString, sType)
 
         Log.d(TAG, "AFTER: " + questions.toString())
 
         // construct a quiz object
+        val quiz = Quiz(questions)
+/*
+        var questionh = quiz.getNextQuestion()
+        quiz.checkAnswer("Genius")
+        questionh = quiz.getNextQuestion()
+        quiz.checkAnswer("Cake")
+        questionh = quiz.getNextQuestion()
+        quiz.checkAnswer("No, but I can understand him")
+        questionh = quiz.getNextQuestion()
+        quiz.checkAnswer("I've never been on a date")
+        Log.d(TAG, "onCreate: " + quiz.l)
+
+         */
+
+
         // get the first question and set the text fields & buttons to match
         // to test, call a few of the functions in the Quiz class and see if they do what you expect them to do.
 
