@@ -43,8 +43,8 @@ class MainActivity : AppCompatActivity() {
         questionh = quiz.getNextQuestion()
         quiz.checkAnswer("I've never been on a date")
         Log.d(TAG, "onCreate: " + quiz.l)
+*/
 
-         */
 
 
         // get the first question and set the text fields & buttons to match
