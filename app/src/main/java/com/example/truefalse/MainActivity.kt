@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,17 +34,58 @@ class MainActivity : AppCompatActivity() {
 
         // construct a quiz object
         val quiz = Quiz(questions)
-/*
-        var questionh = quiz.getNextQuestion()
-        quiz.checkAnswer("Genius")
-        questionh = quiz.getNextQuestion()
-        quiz.checkAnswer("Cake")
-        questionh = quiz.getNextQuestion()
-        quiz.checkAnswer("No, but I can understand him")
-        questionh = quiz.getNextQuestion()
-        quiz.checkAnswer("I've never been on a date")
-        Log.d(TAG, "onCreate: " + quiz.l)
-*/
+
+        var questionIndex = 0
+
+    fun setButtonText(question : Question) {
+        textView_main_question.text = question.answers.keys.elementAt(questionIndex)
+        radioButton_main_answer1.text = question.answers[0].toString()
+        radioButton_main_answer2.text = question.answers[1].toString()
+        radioButton_main_answer3.text = question.answers[2].toString()
+        radioButton_main_answer4.text = question.answers[3].toString()
+
+        questionIndex++
+    }
+
+        radioButton_main_answer1.setOnClickListener {
+            quiz.checkAnswer(radioButton_main_answer1.text.toString())
+            if(quiz.hasNextQuestion()) {
+                setButtonText(quiz.getNextQuestion())
+            }
+            else {
+                quiz.finalCheck()
+            }
+        }
+
+        radioButton_main_answer2.setOnClickListener {
+            quiz.checkAnswer(radioButton_main_answer2.text.toString())
+            if(quiz.hasNextQuestion()) {
+                setButtonText(quiz.getNextQuestion())
+            }
+            else {
+                quiz.finalCheck()
+            }
+        }
+
+        radioButton_main_answer3.setOnClickListener {
+            quiz.checkAnswer(radioButton_main_answer3.text.toString())
+            if(quiz.hasNextQuestion()) {
+                setButtonText(quiz.getNextQuestion())
+            }
+            else {
+                quiz.finalCheck()
+            }
+        }
+
+        radioButton_main_answer4.setOnClickListener {
+            quiz.checkAnswer(radioButton_main_answer4.text.toString())
+            if(quiz.hasNextQuestion()) {
+                setButtonText(quiz.getNextQuestion())
+            }
+            else {
+                quiz.finalCheck()
+            }
+        }
 
 
 
@@ -56,4 +98,5 @@ class MainActivity : AppCompatActivity() {
         // We check if there are more questions
 
     }
+
 }

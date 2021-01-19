@@ -14,7 +14,6 @@ class Quiz(var questions: List<Question>) {
      */
     fun hasNextQuestion() : Boolean {
         return currentQuestionIndex < questions.size - 1
-        
     }
 
     /**
