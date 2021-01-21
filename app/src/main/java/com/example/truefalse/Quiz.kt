@@ -13,7 +13,7 @@ class Quiz(var questions: List<Question>) {
      * @return: whether or not another question exists in the list of questions
      */
     fun hasNextQuestion() : Boolean {
-        return currentQuestionIndex < questions.size - 1
+        return currentQuestionIndex < questions.size
     }
 
     /**
